@@ -78,40 +78,71 @@ The pointers concept is covered in **3 detailed videos**, explained in a very be
 Click on any topic below to directly open the notes in this repository:
 <ul>
   <li>
-    <a href="./01_Introduction_to_Pointers.md">
+    <a href="intro.cpp">
       Introduction to Pointers
     </a>
   </li>
   <li>
-    <a href="./02_Pointer_and_Variables.md">
-      Pointer &amp; Variables
+    <a href="BADpractice.cpp">
+      BAD Practice, Never do this
     </a>
   </li>
   <li>
-    <a href="./03_Pointer_Arithmetic.md">
-      Pointer Arithmetic
+    <a href="NullAndValue.cpp">
+      Null Pointer and Value Access
     </a>
   </li>
   <li>
-    <a href="./04_Pointers_with_Arrays.md">
-      Pointers with Arrays
+    <a href="CopyingPointer.cpp">
+      Copying a Pointer
     </a>
   </li>
   <li>
-    <a href="./05_Double_Pointers.md">
-      Double Pointers
+    <a href="PointerArithmetic.cpp">
+      Pointer Arithmetic - Addition
     </a>
   </li>
   <li>
-    <a href="./06_Pointers_with_Functions.md">
-      Pointers with Functions
+    <a href="ArrayAndAddresses.cpp">
+      Array and Addresses
     </a>
   </li>
   <li>
-    <a href="./07_Common_Mistakes.md">
-      Common Pointer Mistakes
+    <a href="Sizeof.cpp">
+      Size
     </a>
   </li>
+  <li>
+    <a href="charArrayAndPointers.cpp">
+      char Arrays
+    </a>
+  </li>
+  <li>
+    <a href="PointersAndFunctions.cpp">
+      Pointers & Functions
+    </a>
+  </li>
+  <li>
+    <a href="ArrayAndAddresses.cpp">
+      Array & Addresses
+    </a>
+  </li>
+  <li>
+    <a href="Sizeof.cpp">
+      Size
+    </a>
+  </li>
+  <li>
+    <a href="Sizeof.cpp">
+      Size
+    </a>
+  </li>
+  <li>
+    <a href="Sizeof.cpp">
+      Size
+    </a>
+  </li>
+  
 </ul>
 
 > *Each file contains theory + examples for better clarity.*
