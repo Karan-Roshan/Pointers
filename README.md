@@ -128,21 +128,15 @@ Click on any topic below to directly open the notes in this repository:
     </a>
   </li>
   <li>
-    <a href="Sizeof.cpp">
-      Size
+    <a href="DoublePointer.cpp">
+      Double Pointer
     </a>
   </li>
   <li>
-    <a href="Sizeof.cpp">
-      Size
+    <a href="DoublePointerWithFunction.cpp">
+      Double Pointer With Function
     </a>
   </li>
-  <li>
-    <a href="Sizeof.cpp">
-      Size
-    </a>
-  </li>
-  
 </ul>
 
 > *Each file contains theory + examples for better clarity.*
@@ -159,6 +153,14 @@ Below are some excellent resources for **Pointer Practice Problems**:
     </tr>
   </thead>
   <tbody>
+  <tr>
+      <td>Pointer Questions</td>
+      <td>
+        <a href="Pointer Question/pointerQuestion.txt" target="_blank">
+          Pointer Questions
+        </a>
+      </td>
+    </tr>
     <tr>
       <td>LeetCode</td>
       <td>
