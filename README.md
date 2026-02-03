@@ -154,7 +154,7 @@ Below are some excellent resources for **Pointer Practice Problems**:
   </thead>
   <tbody>
   <tr>
-      <td>Pointer Questions</td>
+      <td>Code 360 by Coding Ninjas</td>
       <td>
         <a href="Pointer Question/pointerQuestion.txt" target="_blank">
           Pointer Questions
