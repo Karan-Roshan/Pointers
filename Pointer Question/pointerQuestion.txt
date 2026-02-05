@@ -36,6 +36,8 @@
     *third = *third + 2;
     cout  << first << "  " << second << endl;
 
+
+----- Question 6 -----
     float f = 12.5;
     float p = 21.5;
     float* ptr = &f;
@@ -44,31 +46,44 @@
     cout << *ptr << " " << f << " " << p << endl;
     
 
+----- Question 7 -----
     int arr[5];
     int *ptr;
     cout << sizeof(arr) << " " << sizeof(ptr) << endl;
 
+
+----- Question 8 -----
     int arr[] = {11, 21, 13, 14};
     cout << *(arr) << " " << *(arr+1) << endl;
 
+
+----- Question 9 -----
     int arr[6] = {11, 12, 31};
     cout << arr << " " << &arr << endl;
 
+
+----- Question 10 -----
     int arr[6] = {11, 21, 13};
     cout << (arr + 1) << endl;
 
+
+----- Question 11 -----
     int arr[6] = {11, 21, 31};
     int *p = arr;
     cout << p[2] << endl;
 
+
+----- Question 12 -----
     int arr[] = {11, 12, 13, 14, 15};
     cout << *(arr) << " " << *(arr + 3);
 
+
+----- Question 13 -----
     int arr[] = {11, 21, 31, 41};
     int *ptr = arr++;
     cout << *ptr << endl;
 
-     char ch = 'a';
+    char ch = 'a';
     char* ptr = &ch;
     ch++;
     cout << *ptr << endl;
