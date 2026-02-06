@@ -83,26 +83,34 @@
     int *ptr = arr++;
     cout << *ptr << endl;
 
+
+----- Question 14 -----
     char ch = 'a';
     char* ptr = &ch;
     ch++;
     cout << *ptr << endl;
 
 
+----- Question 15 -----
     char arr[] = "abcde";
     char *p = &arr[0];
     cout << p << endl;
 
+
+----- Question 16 -----
     char arr[] = "abcde";
     char *p = &arr[0];
     p++;
     cout << p << endl;   
 
+
+----- Question 17 -----
     char str[]= "babbar";
     char *p = str;
     cout << str[0] << " " << p[0] << endl;
 
 
+----- Question 18 -----
     void update(int *p){
         *p = (*p)  *  2;
     }
@@ -114,6 +122,7 @@
     }
 
 
+----- Question 19 -----
     void fun(int arr[]) {
         cout << arr[0] << " ";
     }
@@ -125,8 +134,8 @@
     }
 
 
-
-    void update(int *p){
+----- Question 20 -----
+    void square(int *p){
         int a = 70;
         p = &a;
         *p = (*p) * (*p);
@@ -139,6 +148,7 @@
     }
 
 
+----- Question 21 -----
     int first = 10;
     int *p = &a;
     int **q = &p;
@@ -147,6 +157,8 @@
     (*p)++;
     cout << first << " " << second << endl;
 
+
+----- Question 22 -----
     int first = 110;
     int *p = &first;
     int **q = &p;
@@ -154,6 +166,7 @@
     cout << first << " " << second << endl; 
 
 
+----- Question 23 -----
     int first = 100;
     int *p = &first;
     int **q = &p;
@@ -162,6 +175,8 @@
     ++(*r);
     cout << first << " " << second << endl; 
 
+
+----- Question 24 -----
     void increment(int **p){
         ++(**p);
     }
@@ -174,9 +189,8 @@
     }  
 
 
-
-    int main()
-    {
+----- Question 25 -----
+    int main() {
     int arr[] = {41, 52, 36, 74};
     int *p = (arr + 1);
     cout << *arr + 8;
@@ -184,6 +198,7 @@
     }
 
 
+----- Question 26 -----
     int main()
     { 
         char *p; 
@@ -195,6 +210,7 @@
     }
 
 
+----- Question 27 -----
     int main()
     {
         char arr[20];
@@ -207,6 +223,8 @@
         return 0;
     }
 
+
+----- Question 28 -----
     int main()
     {
         float arr[5] = {12.5, 10.0, 13.5, 90.5, 0.5};
@@ -218,6 +236,7 @@
     }
 
 
+----- Question 29 -----
     int main() {
         char st[] = "ABCD";
         for(int i = 0; st[i] != ‘\0’; i++) {
@@ -226,6 +245,8 @@
         return 0;
     }
 
+
+----- Question 30 -----
     void Q(int z)
     {
         z += z;
@@ -249,6 +270,7 @@
     }
 
 
+----- Question 31 -----
     int main()
     {
         int ***r, **q, *p, i=8;
@@ -262,6 +284,7 @@
     }
 
 
+----- Question 32 -----
     int f(int x, int *py, int **ppz) {
         int y, z;
         **ppz += 1;
@@ -272,6 +295,8 @@
         return x + y + z;
     }
 
+
+----- Question 33 -----
     int main() {
         int c, *b, **a;
         c = 4;
